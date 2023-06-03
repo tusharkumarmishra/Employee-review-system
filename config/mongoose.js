@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 // mongoose.connect('mongodb://0.0.0.0/employeReviewSystem');
-const DB = 'mongodb+srv://tusharkumar:hEnQr3NafwL0ph64@tusharpollingapi.pafbxlt.mongodb.net/tusharERS?retryWrites=true&w=majority'
+const DB = 'mongodb+srv://tusharkumar:RudM7diyF3cFFqUT@hospital-api.xgx2pxx.mongodb.net/ERS?retryWrites=true&w=majority';
 
 // These set of line can be written in async await fashion, but I have followed the documentation. 
 mongoose.connect(DB).then(()=>{
